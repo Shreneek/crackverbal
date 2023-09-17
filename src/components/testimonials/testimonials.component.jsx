@@ -48,16 +48,19 @@ const userData = [
 ];
 function Testimonials() {
   return (
+    <section id="section4">
     <div className="section">
       <h1 className="section-title">Recent Reviews of Our Alumni</h1>
       <div className="video-container">
         <iframe
           src="https://www.youtube.com/embed/Ev739wXDMWg"
           title="YouTube Video"
+          allowFullScreen = "true"
         ></iframe>
         <iframe
           src="https://www.youtube.com/embed/DlM4gqClios"
           title="YouTube Video"
+          allowFullScreen = "true"
         ></iframe>
       </div>
       <div className="grid-container">
@@ -76,6 +79,7 @@ function Testimonials() {
         </button>
       </div>
     </div>
+    </section>
   );
 }
 

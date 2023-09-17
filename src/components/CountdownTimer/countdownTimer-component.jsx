@@ -36,7 +36,7 @@ function CountdownTimer() {
     return (
 
         <div className="section">
-            <h1>Acess Free Trail Now</h1>
+            <h1>Access Free Trail Now</h1>
             <div className="countdown-timer">
                 <div className="countdown-box">
                     <div className="countdown-value">{countdown.days}</div>

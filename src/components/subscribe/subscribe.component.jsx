@@ -5,6 +5,7 @@ import './subscribe.css'
 const Subscribe = () => {
     
     return (
+        <section id='section5'>
         <div className='section'>
             <h1 className='section-title'>Subscribe To Our Newsletter Where We Share Weekly Insights On All Things Career</h1>
             <h3 className='red-color'>& GET A FREE EBOOK IN YOUR MAIL</h3>
@@ -39,6 +40,7 @@ const Subscribe = () => {
                 </form>
             </div>
         </div>
+        </section>
     );
 }
 

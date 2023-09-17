@@ -9,6 +9,8 @@ body {
   background-image: url('../src/assets/bg.avif');
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100%;
+  overflow: auto;
   ::-webkit-scrollbar {
     width: 10px; /* Change the width as needed */
   }

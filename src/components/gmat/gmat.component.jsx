@@ -57,6 +57,7 @@ const gmatDetail = [
 ]
 function Gmat() {
     return (
+        <section id='section2'>
         <div className='section'>
             <h1 className='section-title'>We Help You to Accelerate Your GMAT Prep in 3 Ways</h1>
             <div className="card-section">
@@ -91,6 +92,7 @@ function Gmat() {
 
             </div>
         </div>
+        </section>
     );
 }
 

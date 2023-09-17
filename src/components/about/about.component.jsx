@@ -38,6 +38,7 @@ const logos = [
 ]
 function About() {
     return (
+        <section id="section3">
         <div className='section'>
             <h1 className="section-title">About US</h1>
             <p className='sub-title'>Crackverbal is composed of diverse team members who are united by the mission to build a world-class test-prep and admissions company to help students make smarter career choices</p>
@@ -64,6 +65,7 @@ function About() {
             </div>
             </div>
         </div>
+        </section>
     );
 }
 
