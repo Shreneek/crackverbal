@@ -34,9 +34,8 @@ function CountdownTimer() {
     }, []);
 
     return (
-
         <div className="section">
-            <h1>Access Free Trail Now</h1>
+            <h2 className='section-title'>Unlock Your Potential Today! Don't Miss Your Chance to Access a FREE Trial Before this Exclusive Offer Ends. </h2>
             <div className="countdown-timer">
                 <div className="countdown-box">
                     <div className="countdown-value">{countdown.days}</div>
@@ -54,6 +53,11 @@ function CountdownTimer() {
                     <div className="countdown-value">{countdown.seconds}</div>
                     <div className="countdown-label">Seconds</div>
                 </div>
+            </div>
+            <div>
+                <button className="access-btn" type="submit">
+                    Access Now
+                </button>
             </div>
         </div>
     );

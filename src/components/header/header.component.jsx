@@ -18,7 +18,7 @@ const Header = () => {
 
     return (
         <div className="navbar">
-            <img src={logo} alt='logo' className="logoimg"></img>
+            <a href="#root"><img src={logo} alt='logo' className="logoimg"></img></a>
             <button onClick={toggleNav} className="toggle-button">
                 ☰
             </button>

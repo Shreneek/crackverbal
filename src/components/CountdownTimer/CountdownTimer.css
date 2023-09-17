@@ -32,3 +32,19 @@
         font-size: 0.8rem;
     }
 }
+
+.access-btn{
+    cursor: pointer;
+    width: 125px;
+    height: 35px;
+    background: #d02e2ed9;
+    color: white;
+    border: none;
+    border-radius: 13px;
+    margin-top: 20px;
+    font-weight: 500;
+
+    &:hover{
+        background-color: rgb(149, 83, 83);
+    }
+}
