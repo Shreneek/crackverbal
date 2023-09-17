@@ -39,32 +39,32 @@ const logos = [
 function About() {
     return (
         <section id="section3">
-        <div className='section'>
-            <h1 className="section-title">About US</h1>
-            <p className='sub-title'>Crackverbal is composed of diverse team members who are united by the mission to build a world-class test-prep and admissions company to help students make smarter career choices</p>
-            <div className="cards">
-                {aboutData.map((data) => (
-                    <div className='card'>
-                        <div className="card_content">
-                            <img src={data?.src} alt='profile' className='img-data'></img>
-                            <h4>{data?.name}</h4>
-                            <h5>{data?.title}</h5>
+            <div className='section'>
+                <h1 className="section-title">About US</h1>
+                <p className='sub-title'>Crackverbal is composed of diverse team members who are united by the mission to build a world-class test-prep and admissions company to help students make smarter career choices</p>
+                <div className="cards">
+                    {aboutData.map((data) => (
+                        <div className='card'>
+                            <div className="card_content">
+                                <img src={data?.src} alt='profile' className='img-data'></img>
+                                <h4>{data?.name}</h4>
+                                <h5>{data?.title}</h5>
+                            </div>
+                            {/* <p className="card_text">{data?.bio}</p> */}
                         </div>
-                        {/* <p className="card_text">{data?.bio}</p> */}
+                    ))}
+                </div>
+                <h1 className='section-title'>University Alum Represent</h1>
+                <div className='about-2'>
+                    <div className="logos">
+                        {logos.map((logo) => (
+                            <div>
+                                <img className='logo' src={logo} alt='profile'></img>
+                            </div>
+                        ))}
                     </div>
-                ))}
+                </div>
             </div>
-            <h1 className='section-title'>University Alum Represent</h1>
-            <div className='about-2'>
-            <div className="logos">
-                {logos.map((logo) => (
-                    <div>
-                        <img className='logo' src={logo} alt='profile'></img>
-                    </div>
-                ))}
-            </div>
-            </div>
-        </div>
         </section>
     );
 }

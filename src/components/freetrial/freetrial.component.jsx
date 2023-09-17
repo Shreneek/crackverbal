@@ -20,7 +20,7 @@ function Freetrial() {
                         className="video-data"
                         src="https://www.youtube.com/embed/f8C9LD66BSo"
                         title="YouTube Video"
-                        allowFullScreen = "true"
+                        allowFullScreen="true"
                     ></iframe>
                 </div>
             </div>

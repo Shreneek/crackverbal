@@ -11,15 +11,15 @@
     align-items: baseline;
 
     @media (max-width: 1400px) {
-        width:300px;
+        width: 300px;
     }
 }
 
 .row {
     display: flex;
     align-items: center;
-  }
-  
+}
+
 
 .profile-pic {
     width: 100px;
@@ -44,7 +44,9 @@
 .margin-zero {
     margin: 2px;
 }
+
 .bio {
-    margin-top: 8px; /* Add spacing between name and bio */
+    margin-top: 8px;
+    /* Add spacing between name and bio */
     font-size: 12px;
-  }
+}

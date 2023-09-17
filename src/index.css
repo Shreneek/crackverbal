@@ -5,14 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x:hidden ;
+  overflow-x: hidden;
   background-image: url('../src/assets/bg.avif');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
   overflow: auto;
+
   ::-webkit-scrollbar {
-    width: 10px; /* Change the width as needed */
+    width: 10px;
+    /* Change the width as needed */
   }
 }
 
@@ -21,27 +23,29 @@ code {
     monospace;
 }
 
-.sub-menus{
+.sub-menus {
   display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: center;
 }
 
-.section{
+.section {
   margin-top: 20px;
 }
 
-.sub-title{
-  padding :0px 250px;
+.sub-title {
+  padding: 0px 250px;
 
   @media (max-width: 1300px) {
-      padding: 0px
+    padding: 0px
   }
 
 }
-.section-title{
+
+.section-title {
   color: #379aff;
+
   @media (max-width: 768px) {
     font-size: 18px;
   }

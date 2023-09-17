@@ -1,8 +1,9 @@
-.subscribe-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.subscribe-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .textbox {
   height: 48px;
   padding: 0px 28px;
@@ -19,21 +20,21 @@
   height: 40px;
   background: #379aff;
   color: white;
-  border:none;
+  border: none;
   border-radius: 3rem;
   margin-top: 20px;
   cursor: pointer;
 }
 
 
-.form{
-    width: 70%;
-    padding: 50px;
-    border-left: 3px solid #379aff;
-    border-right: 3px solid #379aff;
-    border-radius:16px;
+.form {
+  width: 70%;
+  padding: 50px;
+  border-left: 3px solid #379aff;
+  border-right: 3px solid #379aff;
+  border-radius: 16px;
 }
 
-.red-color{
-    color: red;
+.red-color {
+  color: red;
 }
