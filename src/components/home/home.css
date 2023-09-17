@@ -1,0 +1,13 @@
+.video-container{
+    gap: 2rem !important;
+}
+
+.video-data{
+    width:520px;
+    height:280px;
+
+    @media (max-width: 768px) {
+        width: auto;
+        height: 320px;
+    }
+}

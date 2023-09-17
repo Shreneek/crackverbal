@@ -1,0 +1,38 @@
+.subscribe-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textbox {
+  height: 48px;
+  padding: 0px 28px;
+  color: black;
+  background: transparent;
+  border-radius: 28px;
+  border: 1px solid gray;
+  margin: 16px 0px;
+  width: inherit;
+}
+
+.btn {
+  width: 160px;
+  height: 40px;
+  background: #379aff;
+  color: white;
+  border:none;
+  border-radius: 3rem;
+  margin-top: 20px;
+}
+
+
+.form{
+    width: 70%;
+    padding: 50px;
+    border-left: 3px solid #379aff;
+    border-right: 3px solid #379aff;
+    border-radius:16px;
+}
+
+.red-color{
+    color: red;
+}
