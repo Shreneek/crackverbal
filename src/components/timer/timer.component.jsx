@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './CountdownTimer.css'; // Import your CSS file for styling
+import './timer.css'; // Import your CSS file for styling
 
-function CountdownTimer() {
+function Timer() {
     const [countdown, setCountdown] = useState({
         days: 0,
         hours: 0,
@@ -63,4 +63,4 @@ function CountdownTimer() {
     );
 }
 
-export default CountdownTimer;
+export default Timer;

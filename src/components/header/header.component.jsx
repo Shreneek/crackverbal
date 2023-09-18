@@ -23,11 +23,11 @@ const Header = () => {
                 ☰
             </button>
             <ul className="nav-links" ref={myElementRef}>
-                <li><a href="#section1">Free Trial </a></li>
-                <li><a href="#section2">Gmat Prep</a></li>
-                <li><a href="#section3">About Us</a></li>
-                <li><a href="#section4">Testimonials</a></li>
-                <li><button className="subscribe-btn"><a href="#section5">Subscribe</a></button></li>
+                <li><a href="#section1" onClick={toggleNav}>Free Trial </a></li>
+                <li><a href="#section2" onClick={toggleNav}>Gmat Prep</a></li>
+                <li><a href="#section3" onClick={toggleNav}>About Us</a></li>
+                <li><a href="#section4" onClick={toggleNav}>Testimonials</a></li>
+                <li><button className="subscribe-btn" onClick={toggleNav}><a href="#section5">Subscribe</a></button></li>
             </ul>
         </div>
     );

@@ -7,7 +7,7 @@ import About from './components/about/about.component';
 import Gmat from './components/gmat/gmat.component';
 import Subscribe from './components/subscribe/subscribe.component';
 import Testimonials from './components/testimonials/testimonials.component';
-import CountdownTimer from './components/CountdownTimer/countdownTimer-component';
+import Timer from './components/timer/timer.component'
 import Freetrial from './components/freetrial/freetrial.component';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,7 +19,7 @@ root.render(
       <Gmat />
       <About />
       <Testimonials />
-      <CountdownTimer />
+      <Timer />
       <Subscribe />
     </div>
   </React.StrictMode>
